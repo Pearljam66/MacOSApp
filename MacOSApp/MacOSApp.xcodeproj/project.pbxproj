@@ -52,8 +52,8 @@
 		26307AC52AFDC2A100511B77 /* MacOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				26307AD52AFDCDDB00511B77 /* Views */,
 				26307AC62AFDC2A100511B77 /* MacOSApp.swift */,
-				26307AC82AFDC2A100511B77 /* ContentView.swift */,
 				26307ACA2AFDC2A200511B77 /* Assets.xcassets */,
 				26307ACF2AFDC2A200511B77 /* MacOSApp.entitlements */,
 				26307ACC2AFDC2A200511B77 /* Preview Content */,
@@ -67,6 +67,14 @@
 				26307ACD2AFDC2A200511B77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26307AD52AFDCDDB00511B77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26307AC82AFDC2A100511B77 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
