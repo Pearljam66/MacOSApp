@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MenuItem: View {
+struct MenuItemView: View {
     let title: String
     let systemImage: String
     let action: () -> Void
@@ -19,5 +19,5 @@ struct MenuItem: View {
 }
 
 #Preview {
-    MenuItem(title: "Test Title", systemImage: "figure.walk", action: {})
+    MenuItemView(title: "Test Title", systemImage: "figure.walk", action: {})
 }

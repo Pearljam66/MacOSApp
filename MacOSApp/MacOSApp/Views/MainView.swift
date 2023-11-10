@@ -10,29 +10,29 @@ import SwiftUI
 struct MainView: View {
     @State private var searchText = ""
 
-    private let menuItems: [MenuItem] = [
-        MenuItem(title: "Discover", systemImage: "star") {
+    private let menuItems: [MenuItemView] = [
+        MenuItemView(title: "Discover", systemImage: "star") {
             print("Discover")
         },
-        MenuItem(title: "Arcade", systemImage: "arcade.stick") {
+        MenuItemView(title: "Arcade", systemImage: "arcade.stick") {
             print("Arcade")
         },
-        MenuItem(title: "Create", systemImage: "paintbrush") {
+        MenuItemView(title: "Create", systemImage: "paintbrush") {
             print("Create")
         },
-        MenuItem(title: "Work", systemImage: "location") {
+        MenuItemView(title: "Work", systemImage: "location") {
             print("Work")
         },
-        MenuItem(title: "Play", systemImage: "gamecontroller") {
+        MenuItemView(title: "Play", systemImage: "gamecontroller") {
             print("Play")
         },
-        MenuItem(title: "Develop", systemImage: "hammer") {
+        MenuItemView(title: "Develop", systemImage: "hammer") {
             print("Develop")
         },
-        MenuItem(title: "Categories", systemImage: "squareshape.split.2x2") {
+        MenuItemView(title: "Categories", systemImage: "squareshape.split.2x2") {
             print("Categories")
         },
-        MenuItem(title: "Updates", systemImage: "square.and.arrow.down") {
+        MenuItemView(title: "Updates", systemImage: "square.and.arrow.down") {
             print("Updates")
         }
     ]
