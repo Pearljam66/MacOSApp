@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26307AC72AFDC2A100511B77 /* MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26307AC62AFDC2A100511B77 /* MacOSApp.swift */; };
-		26307AC92AFDC2A100511B77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26307AC82AFDC2A100511B77 /* ContentView.swift */; };
+		26307AC92AFDC2A100511B77 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26307AC82AFDC2A100511B77 /* MainView.swift */; };
 		26307ACB2AFDC2A200511B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26307ACA2AFDC2A200511B77 /* Assets.xcassets */; };
 		26307ACE2AFDC2A200511B77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26307ACD2AFDC2A200511B77 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		26307AC32AFDC2A100511B77 /* MacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26307AC62AFDC2A100511B77 /* MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSApp.swift; sourceTree = "<group>"; };
-		26307AC82AFDC2A100511B77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26307AC82AFDC2A100511B77 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		26307ACA2AFDC2A200511B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26307ACD2AFDC2A200511B77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26307ACF2AFDC2A200511B77 /* MacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSApp.entitlements; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		26307AD52AFDCDDB00511B77 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				26307AC82AFDC2A100511B77 /* ContentView.swift */,
+				26307AC82AFDC2A100511B77 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26307AC92AFDC2A100511B77 /* ContentView.swift in Sources */,
+				26307AC92AFDC2A100511B77 /* MainView.swift in Sources */,
 				26307AC72AFDC2A100511B77 /* MacOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
