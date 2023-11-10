@@ -37,6 +37,10 @@ struct MainView: View {
         }
     ]
 
+    private let adaptiveColumns = [
+        GridItem(.adaptive(minimum: 200))
+    ]
+
     var body: some View {
         NavigationView {
             List {
@@ -47,6 +51,22 @@ struct MainView: View {
             .searchable(text: $searchText)
             .onSubmit (of: .search) {
                 print(searchText)
+            }
+            ScrollView {
+                Image("banner")
+                    .resizable()
+                    .padding(.horizontal)
+                    .scaledToFit()
+
+                LazyVGrid(columns: adaptiveColumns, spacing: 20) {
+                    ForEach(0..<20) { index in
+                        VStack(alignment: .leading) {
+                            Image("octocat")
+                            Label("Title", systemImage: "")
+                                .font(.system(size: 36))
+                        }
+                    }
+                }
             }
         }
     }
